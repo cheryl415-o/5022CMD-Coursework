@@ -14,11 +14,12 @@
 
 ## Requirements
 
-- Python 3.14.7
+- Tested with Python 3.14.7
 - Only the standard library is needed to run the programs.
 - `matplotlib` is needed only to run the `draw_*.py` files.
 
 ## How to run
+Open a terminal in the project folder (the folder that contains q1_hashing, q2_graph and q3_concurrency) and run the commands below one after another.
 
 ```
 cd q1_hashing
@@ -29,7 +30,7 @@ cd ../q2_graph
 python q2_course_system.py   # course prerequisite menu
 
 cd ../q3_concurrency
-python q3_fibonacci.py       # takes several minutes (10 rounds)
+python q3_fibonacci.py       # takes about 15 minutes (10 rounds)
 python q3_io_demo.py         # about 4 seconds
 ```
 
