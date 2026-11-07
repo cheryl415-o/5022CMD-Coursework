@@ -1,0 +1,30 @@
+=== Fibonacci Computation (With Multithreading) ===
+Round  1: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 40,399,541,900 ns
+Round  2: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 30,305,925,700 ns
+Round  3: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 40,563,217,100 ns
+Round  4: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 43,698,023,300 ns
+Round  5: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 46,881,542,000 ns
+Round  6: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 45,213,041,400 ns
+Round  7: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 46,729,841,000 ns
+Round  8: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 46,670,811,500 ns
+Round  9: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 46,482,262,600 ns
+Round 10: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 47,076,327,000 ns
+Average T (With Multithreading): 43,402,053,350 ns
+
+=== Fibonacci Computation (Without Multithreading) ===
+Round  1: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 45,505,189,300 ns
+Round  2: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 41,964,403,600 ns
+Round  3: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 46,174,934,500 ns
+Round  4: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 46,002,432,000 ns
+Round  5: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 46,099,416,800 ns
+Round  6: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 46,668,714,100 ns
+Round  7: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 44,184,567,300 ns
+Round  8: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 44,519,343,800 ns
+Round  9: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 42,357,445,700 ns
+Round 10: Fib(35)=9227465, Fib(38)=39088169, Fib(40)=102334155 | T = 44,527,520,200 ns
+Average T (Without Multithreading): 44,800,396,730 ns
+
+=== Summary ===
+Average with multithreading    : 43,402,053,350 ns
+Average without multithreading : 44,800,396,730 ns
+Observation: Multithreading reduced the average time by 3.1%.
